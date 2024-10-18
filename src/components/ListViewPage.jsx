@@ -1,7 +1,7 @@
-// src/components/ListViewPage.js
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import './ListViewPage.css'; // Optional: Add custom styles
+import './ListViewPage.css'; 
 
 const ListViewPage = () => {
   const [posts, setPosts] = useState([]);

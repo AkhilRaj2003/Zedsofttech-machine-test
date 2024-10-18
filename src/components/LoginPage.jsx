@@ -1,7 +1,7 @@
-// src/components/LoginPage.js
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './LoginPage.css'; // Optional: Add custom styles
+import './LoginPage.css'; 
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');

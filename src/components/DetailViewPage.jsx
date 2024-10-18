@@ -1,7 +1,7 @@
-// src/components/DetailViewPage.js
+
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import './DetailViewPage.css'; // Optional: Add custom styles
+import './DetailViewPage.css'; 
 
 const DetailViewPage = () => {
   const { id } = useParams();
